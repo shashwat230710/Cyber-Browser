@@ -1,0 +1,115 @@
+.kingdom-google {
+  --k-bg: #ffffff;
+  --k-text: #000000;
+  --k-link: #0000ee;
+  background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('data:image/svg+xml;utf8,<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><rect width="20" height="20" fill="none" stroke="%23eee" stroke-width="1"/></svg>');
+}
+
+.kingdom-yahoo {
+  --k-bg: #400090;
+  --k-text: #000000;
+  --k-link: #ffcc00;
+}
+.kingdom-yahoo .xp-content {
+  background: var(--k-bg);
+  color: white;
+}
+.kingdom-yahoo .content-box {
+  background: white;
+  color: black;
+  border: 1px solid #707070;
+  padding: 10px;
+}
+
+.kingdom-altavista {
+  --k-bg: #2B1055;
+  --k-text: #e0e0e0;
+  --k-link: #00BFFF;
+}
+.kingdom-altavista .xp-content {
+  background: var(--k-bg);
+  background-image: radial-gradient(circle at center, #3B2065 0%, #1B0045 100%);
+  color: var(--k-text);
+}
+
+.kingdom-askjeeves {
+  --k-bg: #800020;
+  --k-text: #000000;
+  --k-link: #d4af37;
+}
+.kingdom-askjeeves .xp-content {
+  background: var(--k-bg);
+}
+.kingdom-askjeeves .content-box {
+  background: #fdf5e6;
+  border: 4px double #d4af37;
+  padding: 15px;
+  color: black;
+}
+
+.kingdom-amazon {
+  --k-bg: #ffffff;
+  --k-text: #333333;
+  --k-link: #0066c0;
+}
+.kingdom-amazon .header {
+  background: #232f3e;
+  color: white;
+  border-bottom: 2px solid #FF9900;
+}
+
+.kingdom-ebay {
+  --k-bg: #ffffff;
+  --k-text: #000000;
+  --k-link: #0066cc;
+}
+.kingdom-ebay .banner {
+  border-bottom: 4px solid;
+  border-image: linear-gradient(to right, red 25%, blue 25%, blue 50%, yellow 50%, yellow 75%, green 75%) 1;
+}
+
+.kingdom-napster {
+  --k-bg: #000000;
+  --k-text: #00CC00;
+  --k-link: #00FF00;
+}
+.kingdom-napster .xp-content {
+  background: var(--k-bg);
+  color: var(--k-text);
+  font-family: monospace;
+}
+
+.kingdom-wikipedia {
+  --k-bg: #ffffff;
+  --k-text: #202122;
+  --k-link: #0645ad;
+}
+.kingdom-wikipedia .xp-content {
+  background: #f6f6f6;
+}
+.kingdom-wikipedia .content-box {
+  background: white;
+  border: 1px solid #a2a9b1;
+  padding: 15px;
+}
+
+.kingdom-imdb {
+  --k-bg: #1a1a1a;
+  --k-text: #ffffff;
+  --k-link: #F5C518;
+}
+.kingdom-imdb .xp-content {
+  background: var(--k-bg);
+  color: var(--k-text);
+}
+.kingdom-imdb .header {
+  background: #000000;
+  color: #F5C518;
+}
+
+.kingdom-darkweb {
+  --k-bg: #ffffff;
+  --k-text: #000000;
+  --k-link: #0000ee;
+}
+/* Handled by darkweb-bg class */

@@ -1,0 +1,91 @@
+.pixel-icon {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+.pixel-icon-lg {
+  width: 48px;
+  height: 48px;
+}
+
+/* CSS Art for Icons */
+.icon-google {
+  background: 
+    linear-gradient(90deg, #4285f4 25%, #ea4335 25%, #ea4335 50%, #fbbc05 50%, #fbbc05 75%, #34a853 75%);
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.icon-yahoo {
+  background-color: #400090;
+  color: yellow;
+  font-weight: bold;
+  font-family: serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border-radius: 4px;
+}
+
+.icon-altavista {
+  background: radial-gradient(circle, #00BFFF 0%, #2B1055 100%);
+  border: 2px solid silver;
+}
+
+.icon-askjeeves {
+  background-color: #800020;
+  border-top: 15px solid black;
+  border-bottom: 2px solid gold;
+}
+
+.icon-amazon {
+  background-color: #FF9900;
+  position: relative;
+}
+.icon-amazon::after {
+  content: "→";
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.icon-ebay {
+  background: conic-gradient(red 0 90deg, blue 90deg 180deg, yellow 180deg 270deg, green 270deg 360deg);
+}
+
+.icon-napster {
+  background-color: #000;
+  border: 2px solid #00CC00;
+  border-radius: 50%;
+}
+
+.icon-wikipedia {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.icon-imdb {
+  background-color: #F5C518;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.icon-darkweb {
+  background-color: #000;
+  border: 2px dotted red;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
